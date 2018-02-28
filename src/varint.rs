@@ -14,7 +14,7 @@ fn count_bytes(int: usize) -> usize {
 }
 
 
-pub fn encode(int: usize, dst: &mut Vec<usize>) -> bool{
+pub fn encode(int: usize, dst: &mut Vec<usize>) -> bool {
 	if int <= NO_MSB {
 		dst.push(int);
 		return true;
