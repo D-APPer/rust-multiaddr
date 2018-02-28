@@ -1,0 +1,8 @@
+[package]
+name = "multi_addr"
+version = "0.1.0"
+authors = ["foobar"]
+
+[dependencies]
+integer-encoding = "~1.0.5"
+byteorder = "1.*"
